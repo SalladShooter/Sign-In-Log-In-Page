@@ -1,5 +1,52 @@
 html {
-  width: 100%;
   height: 100%;
+  width: 100%;
   font-family: Arial;
+}
+
+.center {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.top {
+  background-color: lightgreen;
+  width: 75vw;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card {
+  margin-top: 5em;
+  box-shadow: 0 0 5px #ccc, 0 0 5px #ccc, 0 0 5px #ccc, 0 0 5px #ccc;
+  background-color: #eee;
+  width: 75vw;
+  height: 55vh;
+  border-radius: 25px;
+}
+
+.LargelineBreak {
+  margin-top: 7em;
+}
+
+.SmalllineBreak {
+  margin-top: 2em;
+}
+
+input {
+  margin: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  height: 5vh;
+}
+
+.noButton {
+  background-color: transparent;
+  border: 0;
 }
